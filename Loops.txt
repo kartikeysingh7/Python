@@ -1,0 +1,92 @@
+# while loop
+
+# print numbers from 1 to 6
+
+x=1
+while x < 6: # this loop is running 5 time, 5 literations
+    print(x)
+    x = x+1
+       
+    
+#break statement
+x=1
+while x < 6: # this loop is running 5 time, 5 literations
+     if x==3:
+         break
+     print(x)
+     x=x+1
+
+# continue
+x = 0
+while x < 10:
+    x += 1
+    if x == 7:
+        continue #you skip the current iteration and move on to the next
+    print(x)
+
+
+
+x = 0
+while x < 10:
+    x += 1
+    if x == 7:
+        continue #you skip the current iteration and move on to the next
+    print(x)
+else:
+    print('out of range')
+
+
+
+
+
+
+# for loop
+
+
+
+# we use for loop to iteratte over sequence, list, dictionories, tuple, strings etc
+
+num=[10,20,30]
+
+for a in num:
+    print(a)
+
+for x in "hello":
+     print(x)
+    
+num=[10,20,30]
+result = 0
+for a in num:
+    result += a
+    print(result)
+
+num = [10,20,30,40]
+for a in num:
+    print(a)
+    if a==20:
+        break
+
+num = [10,20,30,40]
+for a in num:
+    
+    if a==20:
+        continue
+    print(a)
+    
+
+# range
+
+for x in range(6):
+    print(x)
+for x in range(2,6):
+    print(x)
+    
+for x in range(6):
+    print(x)
+else:
+    print("x is out of range")
+
+
+for x in range(6):
+    pass
+print("hello")

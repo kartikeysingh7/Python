@@ -1,0 +1,81 @@
+# some imp logical conditions
+
+# Equals x == y
+# Not Equals x != y
+# less than x < y
+# greater than x > y
+# less than equal x <= y
+# greater than equal x >= y
+
+# if else conditions
+
+#if(condition):
+    #code if the condition is true
+x=20
+y=10
+if(x>y):
+    print("20 is greater than 10")
+    
+if(x<y):
+    print("x is greater than y")
+else: #rest of the condition eill be executed except the if part
+    print("x is less than or equal to y")
+
+
+student can only enter the college if student enter time is less than college entry time    
+collegeEntryTime = 9  
+studentEnterTime = 13
+
+if(studentEnterTime < collegeEntryTime):
+    print("you can enter in college")
+elif(studentEnterTime == collegeEntryTime):
+    print("you can enter but with late remarks")
+elif(studentEnterTime > 12):
+    print("you can enter but with proper felicitation")
+else:
+    print("go back to hotel")
+
+
+#short hand if condition
+if(10>5): print("10 is greater than 5")
+
+
+#short hand if-else condition
+x=10
+y=20
+print("x") if x>y else print("y")
+    
+
+# and  or keywords (logical opertors)
+x=10
+y=20
+z=5
+
+if(x<y and x<z):
+    print("x is less than all")
+    
+if(x<y or x<z):
+    print("if any one of the condition is true")
+
+
+# nested conditions
+
+age = 12
+if(age < 18):
+    print("age is less than 18")
+    if(age<10):
+         print("person is a minor,no entry allowed")
+    else:
+         print("person is allowed") #range is age 10-17
+else:
+    print("age is greater than or equal to 18")
+
+
+# pass statement
+
+x=20
+y=30
+if(x>y):
+    pass
+else:
+    print("hello")
